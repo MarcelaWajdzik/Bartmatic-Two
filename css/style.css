@@ -5,17 +5,19 @@
 
 * {
     font-family: 'Lato', sans-serif;
-
 }
-
 
 .logo {
     padding: 50px 10px;
 }
 
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 nav {
     background: var(--darkBlue);
-
 }
 
 h2 {
@@ -24,12 +26,8 @@ h2 {
     font-weight: lighter;
     color: var(--darkBlueHover);
     letter-spacing: 0.2px;
-
 }
 
-section {
-    padding: 20px;
-}
 
 .logo-MW {
     width: 200px;
@@ -59,7 +57,6 @@ a.off {
 
 a.nav-link:hover {
     background-color: var(--darkBlueHover);
-
 }
 
 .navbar-collapse {
@@ -68,8 +65,7 @@ a.nav-link:hover {
 
 .container-Atach {
     background-attachment: fixed;
-    background: var(--darkBlue);
-
+    background-image: url('../image/rusty-2268489_1280.png');
 
 }
 
