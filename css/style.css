@@ -74,3 +74,8 @@ p {
     line-height: 1.3em;
     letter-spacing: 0.2px;
 }
+
+#Projects,
+#Location {
+    background-color: #f3ebeb
+}
