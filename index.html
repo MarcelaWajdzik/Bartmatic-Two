@@ -10,37 +10,49 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Font Awesome -->
-    <link href="../Nowy folder/fontAwesome/fontawesome-free-5.12.0-web/css/all.min.css">
+
     <!-- Goole Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <title>Bartmatic</title>
 </head>
 
 <body>
-    <div class="container text-center py-3 container-MW">
-        <div class="row">
-            <div class="col ">
-                <img class="logo" src="./image/logo_200mm.svg" alt="Bartmatoc-logo">
+    <div class="container-fluid">
+        <div class="container text-center py-3 ">
+            <div class="row">
+                <div class="col-12 ">
+                    <img class="logo img-fluid" src="../Nowy folder/image/logo_200mm.svg" alt="Bartmatoc-logo">
+                </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg  navbar-dark sticky-top p-0">
-        <a class=" navbar-brand on" href="#"> <img class="logo" src="./image/logo_200mm.svg" alt="Bartmatoc-logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                <a class="nav-item nav-link py-1 " href="#aboutUs">Firma</a>
-                <a class="nav-item nav-link py-1 " href="#Services">Zakres usług</a>
-                <a class="nav-item nav-link py-1 " href="#Projects">Realizacje</a>
-                <a class="nav-item nav-link py-1 " href="#Contact">Kontakt</a>
-                <a class="nav-item nav-link py-1 " href="#Location">Położenie</a>
+    <nav class="navbar navbar-expand-lg  navbar-dark sticky-top p-0 d-flex justify-content-center ">
+        <div class=" row">
+            <div class="col-12 ">
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="  collapse navbar-collapse  " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!--   <a href="#" class="courses"> -->
+                        <a href="#" class=" aboutUs ">Firma</a>
+                        <a class="  Services" href="# ">Zakres usług</a>
+                        <a class=" " href="#Projects">Realizacje</a>
+                        <a class=" " href="#Contact">Kontakt</a>
+                        <a class="" href="#Location">Położenie</a>
+                    </div>
+
+
+
+                </div>
 
             </div>
         </div>
+        <!--back to top-->
+        <a href="#" id="top"> <i class="far fa-arrow-alt-circle-up"></i></a>
     </nav>
 
     <main>
@@ -49,7 +61,7 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <h2>O firmie</h2>
+                        <h2>Firma</h2>
                     </div>
                     <div class="col-12 col-md-6">
 
@@ -57,7 +69,8 @@
                             projektowania i wytwarzania podzespołów maszyn i urządzeń technicznych.</p>
                         <p>Firmę tworzy zespół inżynierów, absolwentów wiodących kierunków najbardziej prestiżowych
                             polskich
-                            uczelni technicznych. Chęć ciągłego rozwoju, stosowania najnowszych technik wytwarzania
+                            uczelni technicznych.</p>
+                        <p> Chęć ciągłego rozwoju, stosowania najnowszych technik wytwarzania
                             i
                             nieustannego poszerzania naszego portfolio dostarczanych usług sprawia, iż firma szybko
                             zyskuje
@@ -73,142 +86,202 @@
             </div>
         </section>
         <section id="Services">
-            <div class="container">
-                <div class="container-Atach">
+            <div id="fluid-MW" class="container-fluid ">
+                <div class="overlay"></div>
+                <div class="container">
+
                     <div class="row px-2">
                         <div class="col-12">
                             <h2>Zakres usług</h2>
                         </div>
+                        <div class="row">
+                            <div class="col-md-4 mt-2">
 
-                        <div class="col-12 col-md-4 text-light ">
-                            <h3>Dokumentacja techniczna</h3>
-                            <p class="px-2"> &bull; Tworzenie dokumentacji technicznej zgodnej z
-                                wymaganiami
-                                klienta,</p>
-                            <p class="px-2"> &bull; modyfikacja istniejącej dokumentacji,</p>
-                            <p class="px-2"> &bull; odtwarzanie dokumentacji na podstawie analizy fizycznych elementów,
-                            </p>
-                            <p class="px-2"> &bull; digitalizacja dokumentacji (na podstawie
-                                papierowych wersji
-                                rysunków).</p>
+                                <div class="card bg-MW text-white">
+                                    <div class=" card-body text-center">
+                                        <i class="fas fa-file py-3"></i>
+                                        <h4 class="card-title">Dokumentacja techniczna</h4>
 
+                                        <p class="card-text"> &bull; Tworzenie dokumentacji technicznej zgodnej z
+                                            wymaganiami
+                                            klienta,</p>
+                                        <p class="card-text"> &bull; modyfikacja istniejącej dokumentacji,</p>
+                                        <p class="card-text"> &bull; odtwarzanie dokumentacji na podstawie analizy
+                                            fizycznych elementów,
+                                        </p>
+                                        <p class="card-text"> &bull; digitalizacja dokumentacji (na podstawie
+                                            papierowych wersji
+                                            rysunków).</p>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div class="card bg-MW text-white">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-ethernet py-3"></i>
+                                        <h4 class="card-title">Wiązki przewodów</h4>
+                                        <p class="card-text"> &bull; dobieramy złącza, przewody, klasy odporności i
+                                            wytrzymałości,
+                                        </p>
+                                        <p class="card-text"> &bull; tworzymy wiązki na podstawie dokumentacji
+                                            elektrycznej
+                                            klienta,
+                                        </p>
+                                        <p class="card-text"> &bull; projektujemy nowe rozwiązania opierając się na
+                                            wytycznych
+                                            klienta,</p>
+                                        <p class="card-text"> &bull; wykorzystujemy elementy wiodących firm na rynku.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div class="card bg-MW text-white">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-wrench py-3"></i>
+                                        <h4 class="card-title">Frezowanie i toczenie</h4>
+                                        <p class="card-text"> &bull; Frezujemy i toczymy elementy przez na
+                                            zaprojektowane,
+                                        </p>
+                                        <p class="card-text"> &bull; frezujemy i toczymy elementy napodstawie
+                                            dostarczonej
+                                            dokumentacji
+                                            technicznej,</p>
+                                        <p class="card-text"> &bull; obrabiamy materiały stalowe, aluminiowe jak i
+                                            tworzywa
+                                            sztuczne,</p>
+                                        <p class="card-text "> &bull; do obróbki wykorzystujemy centra obróbcze CNC o
+                                            bardzo
+                                            wysokiej klasie
+                                            dokładności i
+                                            powtarzalności.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+
+                                <div class="card bg-MW text-white">
+                                    <div class=" card-body text-center">
+                                        <i class="fas fa-toolbox py-3"></i>
+                                        <h4 class="card-title">Cięcie laserowe i gięcie blach</h4>
+                                        <p class="card-text"> &bull; Tniemy i gniemy konstrukcje własnych pomysłów,</p>
+                                        <p class="card-text "> &bull; tniemy i gniemy konstrukcje na podstawie
+                                            istniejących
+                                            modeli i
+                                            rysunków,</p>
+                                        <p class="card-text "> &bull; oferujemy wycinanie i gięcie elementów z blach
+                                            stalowych,
+                                            nierdzewnych,
+                                            aluminiowych i innych.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2">
+                                <div class="card bg-MW text-white">
+                                    <div class="card-body text-center">
+                                        <i class="fas fa-tools py-3"></i>
+
+                                        <h4 class="card-title">Gotowe narzędzia</h4>
+                                        <p class="card-text"> &bull; Realizujemy kompleksowo gotowe rozwiązania. Od
+                                            projektu, a
+                                            następnie po
+                                            pozytywnej akceptacji klienta – wytworzenie, dostarczenie wyrobu wraz z
+                                            niezbędną
+                                            dokumentacją i instrukcjami i finalną walidacją.</p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-2 ">
+                                <div class="card bg-MW text-white">
+                                    <div class="card-body text-center">
+                                        <i class="fab fa-opencart py-3"></i>
+                                        <h4 class="card-title">Regały, stelaże, wózki</h4>
+                                        <p class="card-text"> &bull;Projektujemy, spawamy, skręcamy, malujemy i
+                                            dostarczamy
+                                            regały
+                                            stacjonarne, regały mobilne, wózki transportowe, stoły montażowe dowolnych
+                                            kształtów i
+                                            wymiarów,</p>
+                                        <p class="card-text"> &bull; wytwarzamy rozwiązania na podstawie dokumentacji
+                                            technicznej
+                                            klienta,
+                                        </p>
+                                        <p class="card-text"> &bull; odtwarzamy istniejące rozwiązania i wdrażamy
+                                            usprawnienia,</p>
+                                        <p class="card-text"> &bull; pomagamy w utrzymaniu porządku i dobrej organizacji
+                                            pracy.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class=" col-12 col-md-4 text-light ">
-                            <h3>Wiązki przewodów</h3>
-                            <h4>Tworzenie wiązek kablowych:</h4>
-                            <p class="px-2 py-0"> &bull; dobieramy złącza, przewody, klasy odporności i wytrzymałości,
-                            </p>
-                            <p class="px-2 py-0"> &bull; tworzymy wiązki na podstawie dokumentacji elektrycznej klienta,
-                            </p>
-                            <p class="px-2 py-0"> &bull; projektujemy nowe rozwiązania opierając się na wytycznych
-                                klienta,</p>
-                            <p class="px-2 py-0"> &bull; wykorzystujemy elementy wiodących firm na rynku.</p>
-
-                        </div>
-                        <div class="col-12  col-md-4 text-light  ">
-                            <h3>Frezowanie i toczenie</h3>
-                            <p class="px-2 py-0"> &bull; Frezujemy i toczymy elementy przez na zaprojektowane,</p>
-                            <p class="px-2 py-0"> &bull; frezujemy i toczymy elementy napodstawie dostarczonej
-                                dokumentacji
-                                technicznej,</p>
-                            <p class="px-2 py-0"> &bull; obrabiamy materiały stalowe, aluminiowe jak i tworzywa
-                                sztuczne,</p>
-                            <p class="px-2 py-0"> &bull; do obróbki wykorzystujemy centra obróbcze CNC o bardzo wysokiej
-                                klasie
-                                dokładności i
-                                powtarzalności.</p>
-
-                        </div>
-
-                        <div class="col-12  col-md-4 text-light  pt-3">
-                            <h3>Cięcie laserowe i gięcie blach</h3>
-                            <p class="px-2 py-0"> &bull; Tniemy i gniemy konstrukcje własnych pomysłów,</p>
-                            <p class="px-2 py-0"> &bull; tniemy i gniemy konstrukcje na podstawie istniejących modeli i
-                                rysunków,</p>
-                            <p class="px-2 py-0"> &bull; oferujemy wycinanie i gięcie elementów z blach stalowych,
-                                nierdzewnych,
-                                aluminiowych i innych.</p>
-
-                        </div>
-                        <div class=" col-12 col-md-4 text-light  pt-3">
-                            <h3 class="py-0 ">Gotowe narzędzia</h3>
-
-                            <p class="px-2 py-0"> &bull; Realizujemy kompleksowo gotowe rozwiązania. Od projektu, a
-                                następnie po
-                                pozytywnej akceptacji klienta – wytworzenie, dostarczenie wyrobu wraz z niezbędną
-                                dokumentacją i instrukcjami i finalną walidacją.</p>
-
-
-                        </div>
-                        <div class="col-12  col-md-4 text-light pt-3">
-                            <h3>Regały, stelaże, wózki</h3>
-                            <p class="px-2 py-0"> &bull;Projektujemy, spawamy, skręcamy, malujemy i dostarczamy regały
-                                stacjonarne, regały mobilne, wózki transportowe, stoły montażowe dowolnych kształtów i
-                                wymiarów,</p>
-                            <p class="px-2 py-0"> &bull; wytwarzamy rozwiązania na podstawie dokumentacji technicznej
-                                klienta,
-                            </p>
-                            <p class="px-2 py-0"> &bull; odtwarzamy istniejące rozwiązania i wdrażamy usprawnienia,</p>
-                            <p class="px-2 py-0"> &bull; pomagamy w utrzymaniu porządku i dobrej organizacji pracy.</p>
-
-                        </div>
-
                     </div>
                 </div>
-            </div>
 
+            </div>
         </section>
 
         <section id="Projects">
-            <div class="container ">
+            <div class="container-fluid">
+                <div class="container ">
 
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Realizacje</h2>
-                    </div>
-                    <div class="row row-cols-1 row-cols-md-2">
-                        <div class="col mb-4">
-                            <div class="card">
-                                <img src="../image/background-819054_1920.jpg" class="card-img-top" alt="fdf">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lorem, ipsum.</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <a href="3">Przenies do projektu </a>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Realizacje</h2>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="./image/rusty-2268489_1280.jpg" class="card-img-top" alt="fdf">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem, ipsum.</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <a href="3">Przenies do projektu </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <img src="../Nowy folder/image/rusty-2268489_1280.jpg" class="card-img-top" alt="fdf">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lorem, ipsum.</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <a href="3">Przenies do projektu </a>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="./image/rusty-2268489_1280.jpg" class="card-img-top" alt="fdf">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem, ipsum.</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <a href="3">Przenies do projektu </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <img src="../Nowy folder/image/just-rust-1492977_1280.jpg" class="card-img-top"
-                                    alt="fdf">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lorem, ipsum.</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <a href="3">Przenies do projektu </a>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="./image/rusty-2268489_1280.jpg" class="card-img-top" alt="fdf">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem, ipsum.</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <a href="3">Przenies do projektu </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <img src="../Nowy folder/image/metal-2069115_1920.jpg" class="card-img-top" alt="fdf">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lorem, ipsum.</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <a href="3">Przenies do projektu </a>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="./image/rusty-2268489_1280.jpg" class="card-img-top" alt="fdf">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem, ipsum.</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <a href="3">Przenies do projektu </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -216,97 +289,120 @@
                 </div>
         </section>
         <section id="Contact">
-            <div class="container">
+            <div id="fluid-MW2" class="container-fluid">
+                <div class="overlay"></div>
+                <div class="container py-5">
 
-                <div class="row ">
-                    <div class="col-12">
-                        <h2>Kontakt</h2>
-                    </div>
-                    <div class="col-8 ">
-                        <form action="https://formspree.io/marcelawa20@gmail.com" method="POST">
-                            <div class="form-group">
-                                <label for="exampleInputEmail2">Imię i Nazwisko</label>
-                                <input type="text" class="form-control" id="exampleInputEmail2"
-                                    aria-describedby="emailHelp">
+                    <div class="row  text-light">
+                        <div class="col-12">
+                            <h2>Kontakt</h2>
+                        </div>
+                        <div class="col-8 ">
+                            <form action="https://formspree.io/marcelawa20@gmail.com" method="POST">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2">Imię i Nazwisko</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail2"
+                                        aria-describedby="emailHelp">
 
-                            </div>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Adres e-mail</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Adres e-mail</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
 
-                            </div>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Wiadomość</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Wyrażam zgode na przetważanie
-                                    danych</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Wyślij</button>
-                        </form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Wiadomość</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Wyrażam zgode na przetważanie
+                                        danych</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Wyślij</button>
+                            </form>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
-
         </section>
         <section id="Location">
-            <div class="container">
+            <div class="container-fluid py-3">
 
-                <div class="row ">
-                    <div class="col-12">
-                        <h2>Położenie</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Położenie</h2>
+                        </div>
                     </div>
-                    <div class="col-8 offset-2">
-                        <img src="../Nowy folder/image/Screenshot_3.png " class="img-fluid pb-3" alt="Responsive image">
-                    </div>
+                    <div class="row">
+                        <div class="col-md-6 text-center d-flex  justify-content-center flex-column text-light">
+                            <h5> BARTMATIC Bartłomiej Oprych</h5>
+                            <h6> ul. Skowronia 3C/3, 30-650 Kraków</h6>
+                            <p>NIP: 6762355124</p>
+                            <p>REGON: 382184538</p>
+                            <a href="mailto:   e-mail: biuro@bartmatic.pl"> e-mail: biuro@bartmatic.pl</a>
 
+                        </div>
+                        <div class="col-md-6">
+
+                            <img src="./image/Screenshot_1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
         </section>
 
     </main>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <p>Kontakt: <a href="" target="_blank">biuro@bartmatic.pl</a></p>
-                </div>
-                <div class="col-3">
-                    <p>Numer: 567-234-668</p>
-                </div>
-                <div class="col-3">
-                    <p>NIP: 6762355124</p>
+        <div id="footer" class="contaner-fluid">
+            <div class=" container py-3">
+                <div class="row text-light">
 
-                </div>
-                <div class="col-3">
-                    <p>REGON: 382184538</p>
+                    <div class="col-md-3">
+                        <p>Kontakt: <a href="mailto:biuro@bartmatic.pl">biuro@bartmatic.pl</a></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Numer: <span>567-234-668</span></p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>NIP: 6762355124</p>
 
-                </div>
-                <div class="col-12 text-center  ">
-                    <p> Copyright &copy; 2020 </p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>REGON: 382184538</p>
+
+                    </div>
+                    <div class="col-12 text-center  ">
+                        <p> Copyright &copy; 2020 </p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9d3ee0c3e7.js"></script>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
+    <!-- Jquery-MW -->
+    <script src="js/main.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>
