@@ -12,11 +12,13 @@
 
 nav {
     background: var(--darkBlue);
+    border-top: 1px solid var(--darkBlueHover);
+    border-bottom: 1px solid var(--darkBlueHover);
 }
 
 header,
 section#aboutUs {
-    background-color: rgba(222, 184, 135, 0.87);
+    background-color: rgba(58, 54, 49, 0.815);
 }
 
 
@@ -106,7 +108,7 @@ p {
 }
 
 .card {
-    min-height: 395px;
+    min-height: 548px;
 }
 
 .bg-MW {
@@ -121,12 +123,8 @@ p {
 
 }
 
-#fluid-MW0 {
-    background-image: url('../image/session-2548826_1920.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+section {
+    min-height: 450px;
 }
 
 #fluid-MW {

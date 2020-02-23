@@ -9,13 +9,19 @@ $(document).ready(function () {
             btn.removeClass('show');
         }
     });
+    btn.on("click", function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 800)
+    })
+
 
 
     //nav 
-    $('  a').on('click', function () {
+    $('nav a').on('click', function () {
         const goToSection = "#" + $(this).attr('class');
-        $('body,html').animate({
+        $("html, body").animate({
             scrollTop: $(goToSection).offset().top
-        }, 1000)
+        }, 800)
     })
 })
