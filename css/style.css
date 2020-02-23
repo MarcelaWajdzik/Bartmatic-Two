@@ -6,19 +6,18 @@
 
 * {
     font-family: 'Lato', sans-serif;
-}
-
-
-section {
-
-    min-height: 500px;
 
 }
+
 
 nav {
     background: var(--darkBlue);
 }
 
+header,
+section#aboutUs {
+    background-color: rgba(222, 184, 135, 0.87);
+}
 
 
 h2 {
@@ -122,6 +121,14 @@ p {
 
 }
 
+#fluid-MW0 {
+    background-image: url('../image/session-2548826_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
 #fluid-MW {
     background-image: url('../image/piston-3483519_1920.jpg');
     background-position: center center;
@@ -149,6 +156,7 @@ p {
 
 #footer {
     background-color: var(--darkBlue);
+
 }
 
 .fas,
