@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
     var btn = $('#top');
+    var navHeight = $('nav').height()
+    console.log(navHeight);
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 500) {
@@ -21,7 +23,7 @@ $(document).ready(function () {
     $('nav a').on('click', function () {
         const goToSection = "#" + $(this).attr('class');
         $("html, body").animate({
-            scrollTop: $(goToSection).offset().top
+            scrollTop: $(goToSection).offset().top - navHeight
         }, 800)
     })
 })
