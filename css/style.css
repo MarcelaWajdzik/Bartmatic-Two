@@ -1,7 +1,6 @@
 :root {
     --darkBlue: rgb(0, 70, 107);
     --darkBlueHover: rgb(25, 148, 210);
-    --defaulColor: #f3ebeb;
 }
 
 * {
@@ -9,6 +8,25 @@
 
 }
 
+section {
+    min-height: 500px;
+}
+
+#fluid-MW {
+    background-image: url('../image/piston-3483519_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#fluid-MW2 {
+    background-image: url('../image/station-839208_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 
 nav {
     background: var(--darkBlue);
@@ -16,9 +34,15 @@ nav {
     border-bottom: 1px solid var(--darkBlueHover);
 }
 
+.navbar-collapse {
+    width: 100%;
+}
+
+#projects,
+#location,
 header,
 #aboutUs {
-    background-color: rgba(58, 54, 49, 0.815);
+    background-color: rgb(17, 16, 16);
 }
 
 
@@ -72,13 +96,13 @@ nav .navbar-nav a:hover {
     z-index: 99;
     opacity: 0;
     transition: 1s;
-
 }
-
 
 #top.show {
     opacity: 1;
 }
+
+
 
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
@@ -86,7 +110,6 @@ nav .navbar-nav a:hover {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #0000;
-
 }
 
 .navbar-collapse {
@@ -104,7 +127,7 @@ p {
 
 #projects,
 #location {
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(17, 16, 16);
 }
 
 .card {
@@ -115,33 +138,7 @@ p {
     background-color: var(--darkBlue);
 }
 
-#jumbo {
-    background-image: url("../image/Screenshot_3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-
-}
-
-section {
-    min-height: 450px;
-}
-
-#fluid-MW {
-    background-image: url('../image/piston-3483519_1920.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-#fluid-MW2 {
-    background-image: url('../image/station-839208_1920.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
 
 .overlay {
     position: absolute;
