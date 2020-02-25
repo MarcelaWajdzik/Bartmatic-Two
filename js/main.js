@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     var btn = $('#top');
     var navHeight = $('nav').height()
-    console.log(navHeight);
+
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 500) {

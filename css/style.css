@@ -17,7 +17,7 @@ nav {
 }
 
 header,
-section#aboutUs {
+#aboutUs {
     background-color: rgba(58, 54, 49, 0.815);
 }
 
@@ -102,8 +102,8 @@ p {
 }
 
 
-#Projects,
-#Location {
+#projects,
+#location {
     background-color: rgb(27, 27, 27);
 }
 
