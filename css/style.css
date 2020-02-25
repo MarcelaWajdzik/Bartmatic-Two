@@ -8,6 +8,12 @@
 
 }
 
+nav {
+    background: var(--darkBlue);
+    border-top: 1px solid var(--darkBlueHover);
+    border-bottom: 1px solid var(--darkBlueHover);
+}
+
 section {
     min-height: 500px;
 }
@@ -28,15 +34,7 @@ section {
     position: relative;
 }
 
-nav {
-    background: var(--darkBlue);
-    border-top: 1px solid var(--darkBlueHover);
-    border-bottom: 1px solid var(--darkBlueHover);
-}
 
-.navbar-collapse {
-    width: 100%;
-}
 
 #projects,
 #location,
@@ -59,14 +57,14 @@ h4 {
     text-transform: uppercase;
 }
 
-.logo-MW {
-    width: 200px;
-    height: 200px;
-}
 
 .film {
     width: 100%;
     height: 100%;
+}
+
+nav .navbar-nav {
+    width: 100%;
 }
 
 nav .navbar-nav a {
@@ -75,7 +73,7 @@ nav .navbar-nav a {
     font-weight: 800;
     text-shadow: 1px 1px #000;
     background-color: var(--darkBlue);
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 
