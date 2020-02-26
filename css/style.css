@@ -8,33 +8,11 @@
 
 }
 
-nav {
-    background: var(--darkBlue);
-    border-top: 1px solid var(--darkBlueHover);
-    border-bottom: 1px solid var(--darkBlueHover);
-}
+/*  */
 
 section {
     min-height: 500px;
 }
-
-#fluid-MW {
-    background-image: url('../image/piston-3483519_1920.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-#fluid-MW2 {
-    background-image: url('../image/station-839208_1920.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-
 
 #projects,
 #location,
@@ -42,7 +20,6 @@ header,
 #aboutUs {
     background-color: rgb(17, 16, 16);
 }
-
 
 h2 {
     padding: 10px 10px 10px 10px;
@@ -57,10 +34,41 @@ h4 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+}
 
-.film {
-    width: 100%;
-    height: 100%;
+/*  */
+
+/* back to top */
+
+#top {
+    display: inline-block;
+    font-size: 3rem;
+    color: var(--darkBlueHover);
+    bottom: 30px;
+    right: 20px;
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+    transition: 1s;
+}
+
+#top.show {
+    opacity: 1;
+}
+
+/* back to top */
+
+/* nav */
+
+
+nav {
+    background: var(--darkBlue);
+    border-top: 1px solid var(--darkBlueHover);
+    border-bottom: 1px solid var(--darkBlueHover);
 }
 
 nav .navbar-nav {
@@ -84,24 +92,6 @@ nav .navbar-nav a:hover {
     text-shadow: 1px 1px #ffffff;
 }
 
-#top {
-    display: inline-block;
-    font-size: 3rem;
-    color: var(--darkBlueHover);
-    bottom: 30px;
-    right: 20px;
-    position: fixed;
-    z-index: 99;
-    opacity: 0;
-    transition: 1s;
-}
-
-#top.show {
-    opacity: 1;
-}
-
-
-
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
@@ -110,33 +100,25 @@ nav .navbar-nav a:hover {
     color: #0000;
 }
 
-.navbar-collapse {
-    margin: 0 auto;
+/* nav */
+
+
+/* background-attachment */
+#fluid-MW {
+    background-image: url('../image/piston-3483519_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
-
-
-p {
-    font-size: 18px;
-    line-height: 1.5em;
-    letter-spacing: 0.2px;
+#fluid-MW2 {
+    background-image: url('../image/station-839208_1920.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
-
-
-#projects,
-#location {
-    background-color: rgb(17, 16, 16);
-}
-
-.card {
-    min-height: 548px;
-}
-
-.bg-MW {
-    background-color: var(--darkBlue);
-}
-
-
 
 .overlay {
     position: absolute;
@@ -147,10 +129,30 @@ p {
     background-color: rgba(0, 0, 0, 0.767);
 }
 
-#footer {
-    background-color: var(--darkBlue);
+/* background-attachment */
 
+
+
+
+
+
+.film {
+    width: 100%;
+    height: 100%;
 }
+
+
+
+/* implementaciones  */
+
+.card {
+    min-height: 548px;
+}
+
+.bg-MW {
+    background-color: var(--darkBlue);
+}
+
 
 .fas,
 .fab {
@@ -158,8 +160,17 @@ p {
     transition: 0.5s linear;
 }
 
-.fas:hover,
-.fab:hover {
-    transform: scale(1.1);
+.card-body:hover .fas,
+.card-body:hover .fab:hover {
+    transform: scale(1.3);
     color: var(--darkBlueHover);
+}
+
+/* implementaciones  */
+
+
+/* footer */
+#footer {
+    background-color: var(--darkBlue);
+
 }
