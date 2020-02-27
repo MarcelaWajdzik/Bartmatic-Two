@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name=”Description”
+        content="Swoją działalność firma koncentruje na dostarczaniu kompleksowych rozwiązań w dziedzinie    projektowania i wytwarzania podzespołów maszyn i urządzeń technicznych.">
+    <meta name=”Keywords”
+        content="projektowanie, usługi, mechanika, maszyny, dokumentacja techniczna,podzespoły, projektowanie maszyn, produkcja maszyn">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -62,7 +66,7 @@
                     <div class="col-12">
                         <h2>Firma</h2>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 text-white">
+                    <div class="col-12  col-xl-6 text-white">
 
                         <p>Swoją działalność firma koncentruje na dostarczaniu kompleksowych rozwiązań w dziedzinie
                             projektowania i wytwarzania podzespołów maszyn i urządzeń technicznych.</p>
@@ -76,10 +80,18 @@
                             uznanie na rynku wśród swoich klientów.</p>
 
                     </div>
-                    <div class=" col-7 col-md-6 col-lg-6">
-                        <iframe class="film" src="https://www.youtube.com/embed/H3PthynPfpU"
+                    <!-- desktop view -->
+                    <div class=" col-xl-6 d-none d-xl-block">
+                        <img class="img-fluid robot" src="./image/robot-2216409_1280.jpg" alt="Ramie robota">
+
+                        <!-- <iframe class="film" src="https://www.youtube.com/embed/H3PthynPfpU"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                            allowfullscreen></iframe> -->
+                    </div>
+                    <!-- tablet/mobile view -->
+                    <div class=" col-12 d-flex justify-content-center d-block d-xl-none">
+                        <img class="img-fluid" src="./image/logo_200mm.svg" alt="Bartmatic-logo">
+
                     </div>
                 </div>
             </div>
@@ -261,12 +273,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section id="contact">
             <div id="fluid-MW2" class="container-fluid py-3">
                 <div class="overlay"></div>
                 <div class="container ">
-
                     <div class="row  text-light">
                         <div class="col-12">
                             <h2>Kontakt</h2>
@@ -276,18 +288,17 @@
                                 <div class="form-group">
                                     <label for="exampleInputEmail2">Imię i Nazwisko</label>
                                     <input type="text" name="name" class="form-control" id="exampleInputEmail2"
-                                        aria-describedby="emailHelp">
-
+                                        aria-describedby="exampleInputEmail2">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Adres e-mail</label>
                                     <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
+                                        aria-describedby="exampleInputEmail1">
 
                                 </div>
 
-                                <div class="form-group">
+                                <div class=" form-group">
                                     <label for="exampleFormControlTextarea1">Wiadomość</label>
                                     <textarea class="form-control" name="message" id="exampleFormControlTextarea1"
                                         rows="7"></textarea>
@@ -295,7 +306,7 @@
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">Wyrażam zgode na przetważanie
-                                        danych</label>
+                                        danych osobowych</label>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Wyślij</button>
                             </form>
@@ -320,7 +331,7 @@
                             <h6> ul. Skowronia 3C/3, 30-650 Kraków</h6>
                             <p>NIP: 6762355124</p>
                             <p>REGON: 382184538</p>
-                            <a href="mailto:   e-mail: biuro@bartmatic.pl"> e-mail: biuro@bartmatic.pl</a>
+                            <a href="mailto:e-mail:biuro@bartmatic.pl">e-mail: biuro@bartmatic.pl</a>
 
                         </div>
                         <div class="col-md-6">

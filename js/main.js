@@ -3,7 +3,6 @@ $(document).ready(function () {
     var btn = $('#top');
     var navHeight = $('nav').height()
 
-
     $(window).scroll(function () {
         if ($(window).scrollTop() > 450) {
             btn.addClass('show');
@@ -16,8 +15,6 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800)
     })
-
-
 
     //nav 
     $('nav a').on('click', function () {
