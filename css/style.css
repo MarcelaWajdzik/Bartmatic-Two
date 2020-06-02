@@ -73,7 +73,7 @@ p {
 /* nav */
 
 nav {
-    background: var(--darkBlue);
+    background-color: rgb(17, 16, 16);
     border-top: 1px solid var(--darkBlueHover);
     border-bottom: 1px solid var(--darkBlueHover);
 }
@@ -87,15 +87,16 @@ nav .navbar-nav a {
     font-size: 1.3rem;
     font-weight: 800;
     text-shadow: 1px 1px #000;
-    background-color: var(--darkBlue);
+    background-color: rgb(17, 16, 16);
     padding: 10px 20px;
+    transition: all 0.5s;
 }
 
 nav .navbar-nav a:hover {
     color: #000;
     background-color: var(--darkBlueHover);
     text-decoration: none;
-    text-shadow: 1px 1px #ffffff;
+    ;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -147,9 +148,9 @@ nav .navbar-nav a:hover {
 
 /* implementaciones  */
 
-.card {
+/* .card {
     min-height: 548px;
-}
+} */
 
 .bg-MW {
     background-color: var(--darkBlue);

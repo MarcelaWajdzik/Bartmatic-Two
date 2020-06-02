@@ -44,4 +44,13 @@ $(document).ready(function () {
             scrollTop: $(goToSection).offset().top - navHeight
         }, 800)
     })
-})
+
+    var heightsColumn = [];
+
+    $('.inner-column').each(function () {
+        heightsColumn.push($(this).height())
+    });
+    var maxHeight = Math.max.apply(null, heightsColumn)
+    $('.inner-column').height(maxHeight);
+
+});
